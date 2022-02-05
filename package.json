@@ -12,7 +12,7 @@
   "dependencies": {
     "commander": "^6.2.0",
     "lodash": "^4.17.20",
-    "pigpio": "^3.2.4"
+    "pigpio": "^3.3.1"
   },
   "devDependencies": {
     "@egy186/eslint-config": "^0.68.0",
