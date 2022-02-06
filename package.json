@@ -4,13 +4,13 @@
   "version": "0.1.1",
   "author": "egy186",
   "bin": {
-    "pi-ir": "bin/pi-ir"
+    "pi-ir": "bin/pi-ir.js"
   },
   "bugs": {
     "url": "https://github.com/egy186/pi-ir/issues"
   },
   "dependencies": {
-    "commander": "^6.2.0",
+    "commander": "^9.0.0",
     "lodash": "^4.17.20",
     "pigpio": "^3.3.1"
   },
@@ -21,7 +21,7 @@
     "eslint-plugin-node": "^11.1.0"
   },
   "engines": {
-    "node": ">=12.20.0"
+    "node": ">=16.13.2"
   },
   "homepage": "https://github.com/egy186/pi-ir#readme",
   "keywords": [
