@@ -18,7 +18,7 @@
     "@egy186/eslint-config": "^0.91.0",
     "eslint": "^8.55.0",
     "eslint-plugin-jsdoc": "^44.2.3",
-    "eslint-plugin-n": "^16.3.0"
+    "eslint-plugin-n": "^16.3.1"
   },
   "engines": {
     "node": ">=16.13.2"
