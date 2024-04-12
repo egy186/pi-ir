@@ -4,11 +4,11 @@
 
 'use strict';
 
-const { mkdir, open, readFile } = require('fs/promises');
+const { mkdir, open, readFile } = require('node:fs/promises');
 const { record, send } = require('..');
 const { Command, Option } = require('commander');
 const { version } = require('../package.json');
-const { dirname } = require('path');
+const { dirname } = require('node:path');
 
 const program = new Command();
 const gpioOption = new Option('-g, --gpio <gpio>', 'GPIO number')
