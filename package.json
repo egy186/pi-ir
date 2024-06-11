@@ -1,7 +1,7 @@
 {
   "name": "@egy186/pi-ir",
   "description": "listen/send ir codes",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "egy186",
   "bin": {
     "pi-ir": "./bin/pi-ir.js"
