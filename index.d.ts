@@ -29,7 +29,7 @@ export class Listener extends EventEmitter {
   rawListeners(eventName: 'data'): ((code: Code) => void | Promise<void>)[];
 }
 
-export function listen(gpio: Number, options?: ListenOptions): Listener;
+export function listen(gpio: number, options?: ListenOptions): Listener;
 
 export interface RecordOptions {
   averageOptions?: AverageOptions;
@@ -38,11 +38,11 @@ export interface RecordOptions {
   minLength?: number;
 }
 
-export function record(gpio: Number, options?: RecordOptions): Promise<Code>;
+export function record(gpio: number, options?: RecordOptions): Promise<Code>;
 
 export interface SendOptions {
   frequency?: number;
   interval?: number;
 }
 
-export function send(gpio: Number, codeOrCodes: Code | Code[], options?: SendOptions): Promise<void>;
+export function send(gpio: number, codeOrCodes: Code | Code[], options?: SendOptions): Promise<void>;

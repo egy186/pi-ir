@@ -2,13 +2,12 @@
 
 /* eslint-disable no-console */
 
-'use strict';
+import { Command, Option } from 'commander';
+import { mkdir, open, readFile } from 'node:fs/promises';
+import { record, send } from '../index.js';
+import { dirname } from 'node:path';
 
-const { mkdir, open, readFile } = require('node:fs/promises');
-const { record, send } = require('..');
-const { Command, Option } = require('commander');
-const { version } = require('../package.json');
-const { dirname } = require('node:path');
+const { version } = JSON.parse(await readFile(new URL('../package.json', import.meta.url), 'utf8'));
 
 const program = new Command();
 const gpioOption = new Option('-g, --gpio <gpio>', 'GPIO number')

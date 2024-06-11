@@ -1,6 +1,5 @@
 {
   "extends": [
-    "@egy186/eslint-config",
-    "@egy186/eslint-config/commonjs"
+    "@egy186/eslint-config"
   ]
 }

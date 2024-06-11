@@ -4,14 +4,14 @@
   "version": "0.3.0",
   "author": "egy186",
   "bin": {
-    "pi-ir": "bin/pi-ir.js"
+    "pi-ir": "./bin/pi-ir.js"
   },
   "bugs": {
     "url": "https://github.com/egy186/pi-ir/issues"
   },
   "dependencies": {
     "commander": "^12.1.0",
-    "lodash": "^4.17.20",
+    "lodash-es": "^4.17.21",
     "pigpio": "^3.3.1"
   },
   "devDependencies": {
@@ -21,13 +21,14 @@
   "engines": {
     "node": ">=18.19.0"
   },
+  "exports": "./index.js",
   "homepage": "https://github.com/egy186/pi-ir#readme",
   "keywords": [
     "gpio",
     "raspberry"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/egy186/pi-ir.git"
@@ -35,5 +36,6 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "git config --local core.hooksPath .githooks || echo 'not a git repository'"
-  }
+  },
+  "type": "module"
 }
