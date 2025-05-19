@@ -19,7 +19,7 @@
     "eslint": "^9.27.0"
   },
   "engines": {
-    "node": ">=18.19.0"
+    "node": ">=20.19.2"
   },
   "exports": "./index.js",
   "homepage": "https://github.com/egy186/pi-ir#readme",
