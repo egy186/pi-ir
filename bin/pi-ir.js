@@ -6,8 +6,7 @@ import { Command, Option } from 'commander';
 import { mkdir, open, readFile } from 'node:fs/promises';
 import { record, send } from '../index.js';
 import { dirname } from 'node:path';
-
-const { version } = JSON.parse(await readFile(new URL('../package.json', import.meta.url), 'utf8'));
+import { version } from '../package.json' with { type: 'json' };
 
 const program = new Command();
 const gpioOption = new Option('-g, --gpio <gpio>', 'GPIO number')
