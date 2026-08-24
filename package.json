@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@egy186/eslint-config": "^4.8.0",
-    "eslint": "^9.39.5"
+    "eslint": "^10.8.1"
   },
   "engines": {
     "node": ">=20.19.2"
