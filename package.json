@@ -34,8 +34,7 @@
     "url": "git+https://github.com/egy186/pi-ir.git"
   },
   "scripts": {
-    "lint": "eslint",
-    "prepare": "git config --local core.hooksPath .githooks || echo 'not a git repository'"
+    "lint": "eslint"
   },
   "type": "module"
 }
