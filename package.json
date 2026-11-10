@@ -10,7 +10,7 @@
     "url": "https://github.com/egy186/pi-ir/issues"
   },
   "dependencies": {
-    "commander": "^15.0.0",
+    "commander": "^15.1.0",
     "lodash-es": "^4.18.1",
     "pigpio": "^3.3.1"
   },
